@@ -64,9 +64,12 @@ rishas-aestheluxe-website/
 - **Location:** Coimbatore, Tamil Nadu, India
 
 ## Screenshots
+<img width="1902" height="807" alt="Screenshot 2026-10-05 141858" src="https://github.com/user-attachments/assets/fcd3c037-888a-4e80-b329-73a31bb9e54e" />
+<img width="1917" height="902" alt="Screenshot 2026-10-05 141836" src="https://github.com/user-attachments/assets/a3654c72-73de-4394-a903-5cf63cdb8678" />
 
-![Home Page](images/home.png)
-![About Section](images/about.png)
+
+
+
 
 ## Author
 
