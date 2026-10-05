@@ -1,80 +1,16 @@
-# rishas-aestheluxe-website
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Risha's Aestheluxe Website
+Currently, two official plugins are available:
 
-A responsive website for **Risha's Aestheluxe (Risha's Clinic)**, a skin, hair, and cosmetic care clinic in Coimbatore, Tamil Nadu. The site presents the clinic's services, introduces its doctors, and lets visitors book an appointment or get in touch.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Features
+## React Compiler
 
-- Elegant hero section with a welcome banner and clear call to action
-- Easy navigation: Home, Skin Care, Hair Care, Contact Us
-- **Book Now** button for quick appointment requests
-- About section introducing the clinic and its doctors
-- Clinic timings, phone numbers, and email shown in the header
-- Fully responsive layout for desktop, tablet, and mobile
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Pages
+## Expanding the ESLint configuration
 
-| Page | Description |
-|------|-------------|
-| Home | Hero banner, about the clinic, highlights |
-| Skin Care | Skin rejuvenation and related treatments |
-| Hair Care | Hair restoration and related treatments |
-| Contact Us | Contact details and appointment enquiry |
-
-## Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript
-
-## Getting Started
-
-1. Clone the repository
-
-```bash
-   git clone https://github.com/<your-username>/rishas-aestheluxe-website.git
-```
-
-2. Go to the project folder
-
-```bash
-   cd rishas-aestheluxe-website
-```
-
-3. Open `index.html` in your browser.
-
-## Project Structure
-
-```
-rishas-aestheluxe-website/
-├── index.html
-├── css/
-├── js/
-├── images/
-└── README.md
-```
-
-## Clinic Information
-
-- **Timings:** Morning 10 am to 1 pm | Evening 2 pm to 8 pm
-- **Phone:** 0422 4928475 | +91 63859 40119
-- **Email:** info@rishasaestheluxe.com
-- **Location:** Coimbatore, Tamil Nadu, India
-
-## Screenshots
-<img width="1902" height="807" alt="Screenshot 2026-10-05 141858" src="https://github.com/user-attachments/assets/fcd3c037-888a-4e80-b329-73a31bb9e54e" />
-<img width="1917" height="902" alt="Screenshot 2026-10-05 141836" src="https://github.com/user-attachments/assets/a3654c72-73de-4394-a903-5cf63cdb8678" />
-
-
-
-
-
-## Author
-
-Developed by **<Your Name>**
-
-## License
-
-This project was built for Risha's Aestheluxe. All clinic branding, logos, and content belong to the clinic.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
